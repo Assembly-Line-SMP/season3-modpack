@@ -30,6 +30,7 @@ jobs:
         run: |
           cd src
           zip -r ../src.zip .
+          mv ../src.zip ../assembly-line-s3.mrpack
       - name: Upload zip artifact
         uses: actions/upload-artifact@v4
         with:
