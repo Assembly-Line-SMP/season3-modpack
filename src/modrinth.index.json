@@ -4,6 +4,7 @@
 	"versionId": "2.1.1",
 	"name": "Assembly Line SMP S2",
 	"summary": "Official modpack of the Assembly Line SMP. S2",
+	"files": [],
 	"dependencies": {
 	    "neoforge": "21.1.252",
 	    "minecraft": "1.21.1"
