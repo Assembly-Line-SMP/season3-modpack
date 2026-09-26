@@ -2,8 +2,8 @@
 	"game": "minecraft",
 	"formatVersion": 1,
 	"versionId": "2.1.1",
-	"name": "Assembly Line SMP S2",
-	"summary": "Official modpack of the Assembly Line SMP. S2",
+	"name": "Assembly Line SMP S3",
+	"summary": "Official modpack of the Assembly Line SMP. S3",
 	"files": [],
 	"dependencies": {
 	    "neoforge": "21.1.252",
