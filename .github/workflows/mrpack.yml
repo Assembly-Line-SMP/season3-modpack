@@ -35,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: s3-modpack
-          path: *.mrpack
+          path: assembly-line-s3.mrpack
