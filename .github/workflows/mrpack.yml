@@ -34,5 +34,5 @@ jobs:
       - name: Upload zip artifact
         uses: actions/upload-artifact@v4
         with:
-          name: src-archive
-          path: src.zip
+          name: s3-modpack
+          path: *.mrpack
