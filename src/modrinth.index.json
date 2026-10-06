@@ -613,8 +613,8 @@
 		{
 			"path": "mods/tectonic-3.0.28-neoforge-21.1.jar",
 			"hashes": {
-				"sha512": "e07b9cb54f078b7bf74c925c5cebd6643f0b4c210b8f94474e68659b69468ece7d61432f70eafe7abaa1dfa798e4638aad297987c121dc127588c2623b7f7a81",
-				"sha1": "db15156eec4320c2997c4dd4948119472de01224"
+				"sha1": "db15156eec4320c2997c4dd4948119472de01224",
+				"sha512": "e07b9cb54f078b7bf74c925c5cebd6643f0b4c210b8f94474e68659b69468ece7d61432f70eafe7abaa1dfa798e4638aad297987c121dc127588c2623b7f7a81"
 			},
 			"downloads": [
 				"https://cdn.modrinth.com/data/lWDHr9jE/versions/n4iyW7aB/tectonic-3.0.28-neoforge-21.1.jar"
@@ -653,6 +653,28 @@
 				"https://cdn.modrinth.com/data/AtB5mHky/versions/uWr2aTW9/watut-neoforge-1.21.0-1.2.7.jar"
 			],
 			"fileSize": 432269
+		},
+		{
+			"path": "mods/Geophilic v3.7.mod.jar",
+			"hashes": {
+				"sha512": "7731d6d7f85af0dc9eb232138b1dc1096f083d13a9f3e592b84f6c89a97cca0c642c68d5943e0e63bd35e93002708b945554991f519b754a04c6eec058305c19",
+				"sha1": "4d668978e18b450c030ed4be096fce52d3a9ceca"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/hl5OLM95/versions/5kFV8CEz/Geophilic%20v3.7.mod.jar"
+			],
+			"fileSize": 1115993
+		},
+		{
+			"path": "mods/StreamsReflowing-1.21.1-neoforge-2.14.4.jar",
+			"hashes": {
+				"sha1": "9ab9da4ac9808b36dfd8dfbd220f1e0ce210d891",
+				"sha512": "7f290f22343dbee3c2b7c1950df1f1c1a7b93895591b2f8384438d9d1d6d1806f66d33f5c6fb7fd6c7f89e4798fcc7b64a622bee804e9a11a12529a53f54b9ba"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/oLS8HdJ1/versions/3NL8BzMK/StreamsReflowing-1.21.1-neoforge-2.14.4.jar"
+			],
+			"fileSize": 2872585
 		}
 	],
 	"dependencies": {
