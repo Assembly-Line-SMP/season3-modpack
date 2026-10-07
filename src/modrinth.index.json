@@ -774,6 +774,28 @@
 				"https://cdn.modrinth.com/data/NcUtCpym/versions/SnQ4SoDe/xaeroworldmap-neoforge-1.21.1-1.47.0.jar"
 			],
 			"fileSize": 1427078
+		},
+		{
+			"path": "mods/connector-2.0.0-beta.17+1.21.1-full.jar",
+			"hashes": {
+				"sha1": "15e652d3628b1bcb644b93576fcab154496f770a",
+				"sha512": "cb92b662047208792e61191d372d1e255766200406c35769007101f8c578c1018938610c3b90352afd93ec42d7963acf3607e35c50e669df50ac85d7c5529560"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/u58R1TMW/versions/IITF0PRC/connector-2.0.0-beta.17%2B1.21.1-full.jar"
+			],
+			"fileSize": 4573244
+		},
+		{
+			"path": "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+			"hashes": {
+				"sha1": "1a2c41d2efbe1c60159b90a165557e7c06d03a5c",
+				"sha512": "2b44ecd839544e3668a02f8de86433d507417d068dcafeee7f698744fc2b12fd888a1bba509da57c8e2884d01dbaf344f49bbac0f22cdae599507356ed0cbe30"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/Aqlf1Shp/versions/V9WdDUTx/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar"
+			],
+			"fileSize": 5613159
 		}
 	],
 	"dependencies": {
