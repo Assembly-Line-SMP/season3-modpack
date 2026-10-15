@@ -796,6 +796,39 @@
 				"https://cdn.modrinth.com/data/Aqlf1Shp/versions/V9WdDUTx/forgified-fabric-api-0.116.15%2B2.3.5%2B1.21.1.jar"
 			],
 			"fileSize": 5613159
+		},
+		{
+			"path": "mods/fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+			"hashes": {
+				"sha512": "57ea23ab4424217770025a9447f3990fa39befdb51ac99d7e6bcde4bf7d926b125ceed824f38e7cf504e389bc0d30edb3a7592b47d4763516c9cb0ef4ab2a9c3",
+				"sha1": "cafbef98afb4f60adea426b950c5452655040c40"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/Wq5SjeWM/versions/P9dDosz2/fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
+			],
+			"fileSize": 25922080
+		},
+		{
+			"path": "mods/konkrete_neoforge_1.9.9_MC_1.21(1).jar",
+			"hashes": {
+				"sha512": "378bd12e3c32329abbae5cd514e1d1cc2a3cc3a45979fedb1d4e4c0a6732bdcf4b7d1bf7f7a112074bf288957edf86152c9c090a27d1d5de84a9a7825d3d6511",
+				"sha1": "97771eb287d5ac7fe667d1df9493d5e54c8ca1fa"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar"
+			],
+			"fileSize": 618842
+		},
+		{
+			"path": "mods/melody_neoforge_1.0.10_MC_1.21(1).jar",
+			"hashes": {
+				"sha512": "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1",
+				"sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar"
+			],
+			"fileSize": 36096
 		}
 	],
 	"dependencies": {
