@@ -1586,6 +1586,17 @@
 				"https://cdn.modrinth.com/data/ObXSoyrn/versions/g6OmXHMq/SimpleRPC-4.1.4.jar"
 			],
 			"fileSize": 716599
+		},
+		{
+			"path": "mods/opac_essentials-2.3.jar",
+			"hashes": {
+				"sha512": "1e0f911f0bb018f2780b74422403facec12a5061b97c2276d4174aa8c9c30d01ed6cc4d874561e02b058636c1a71833a98e9e11708f885e610b01d2a47431c77",
+				"sha1": "09fe10e38d1f9af3f14a5d54ff89527fb2ed96cf"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/u0lYa0ln/versions/vMdgVil2/opac_essentials-2.3.jar"
+			],
+			"fileSize": 5097812
 		}
 	],
 	"dependencies": {
