@@ -1,0 +1,187 @@
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	applicationID = "1525557670533136515"
+	enabled = true
+	debugging = false
+	launcherIntegration = false
+	rpcImageServer = false
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Internal Version Number. NO TOUCHY!
+	version = 27
+
+#Game loading
+[init]
+	#Enable/Disable the init event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[init.presence]]
+		type = "PLAYING"
+		description = "Assembly Line SMP"
+		state = "Game starting..."
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Main menu
+[main_menu]
+	#Enable/Disable the main_menu event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[main_menu.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "In the main menu"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Server list
+[server_list]
+	#Enable/Disable the server_list event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[server_list.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Browsing servers"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Realms screen
+[realms_list]
+	#Enable/Disable the realms_list event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[realms_list.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Browsing servers"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Join game
+[join_game]
+	#Enable/Disable the join_game event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[join_game.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Joining the server..."
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Single player
+[single_player]
+	#Enable/Disable the single_player event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[single_player.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Playing Assembly Line SMP"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Multi player
+[multi_player]
+	#Enable/Disable the multi_player event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[multi_player.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "{{server.players.count}} players online"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Realms game
+[realms]
+	#Enable/Disable the realms event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[realms.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Playing Assembly Line SMP"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Paused
+[paused]
+	#Enable/Disable the paused event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[paused.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = "Game paused"
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Fallback
+[generic]
+
+	#List of RPCs that will be displayed at random
+	[[generic.presence]]
+		type = "PLAYING"
+		description = "Playing on Assembly Line SMP"
+		state = ""
+		largeImageKey = ["https://raw.githubusercontent.com/Assembly-Line-SMP/Textures/refs/heads/main/textures/icon3.png"]
+		largeImageText = "Assembly Line SMP | Create modded Minecraft {{game.version}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = [{ label = "Open Assembly Line SMP", url = "https://modrinth.com/server/assembly-line-smp/" }]
+
+#Custom Config Variables
+[custom]
+	enabled = true
+	variables = []
+
+#Dimension Information Overrides (disabled)
+[dimension_overrides]
+	enabled = false
