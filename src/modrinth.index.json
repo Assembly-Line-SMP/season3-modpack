@@ -1597,6 +1597,72 @@
 				"https://cdn.modrinth.com/data/v3CYg2V9/versions/MVgsDsSB/drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar"
 			],
 			"fileSize": 168632
+		},
+		{
+			"path": "mods/CreateDragonsPlus-1.11.9.jar",
+			"hashes": {
+				"sha512": "43299e49afe7132515aa8ad545b8c9566d90f12cfb39456b3d6e1ebc8e03f05787fbc420e7cc9495df4d6b585d13e7a4c4c7385f82f20aeb829c9491b725af53",
+				"sha1": "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar"
+			],
+			"fileSize": 1085674
+		},
+		{
+			"path": "mods/CustomSkinLoader_Universal-15.1.jar",
+			"hashes": {
+				"sha1": "324e6921ecd576e44875981466e7f22170b6541a",
+				"sha512": "1c3ee525200d3dff69b19d4667f0c40155d0a8eedcfed4749ec8883fcf169bcf1123942a87ca73ecf46002fded35ec653bb902b0d3900c42f4eab0323793daf2"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar"
+			],
+			"fileSize": 222917
+		},
+		{
+			"path": "mods/create-enchantment-industry-2.4.2.jar",
+			"hashes": {
+				"sha512": "16bd3dcd82159d6793bd9cc24dcb911b90e838c67f781581afea8c6af21f53106ac54de7f2dffe1a8576cf8908e68658538a1c76d3c44691109a24bc60460436",
+				"sha1": "4ad5c181c805a548e15892500b07c0c0f88f0734"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/JWGBpFUP/versions/qUpvzZ83/create-enchantment-industry-2.4.2.jar"
+			],
+			"fileSize": 1283517
+		},
+		{
+			"path": "mods/create_connected-1.3.3-mc1.21.1.jar",
+			"hashes": {
+				"sha1": "96ae45fa44cd7028a31b9613cb672009e811b145",
+				"sha512": "485675693980a266611669857fa9cd348e2a29140b87bf0a8ab3e13c3591422cceaa36b7a2eb90084d35ec1868c8eec9f924383bb4dada2dddcb72e9f09361b0"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/Vg5TIO6d/versions/Xe7EqzfQ/create_connected-1.3.3-mc1.21.1.jar"
+			],
+			"fileSize": 6786783
+		},
+		{
+			"path": "mods/createenchantablemachinery-3.6.0_mc1.21.1-neoforge.jar",
+			"hashes": {
+				"sha1": "ed9a5cf654235f54a3c5aced27ac654d5258e393",
+				"sha512": "1dda17f32d92b92ac2e953f7cc28efd6be4d627ca85f4639654bbc3acdc9c879bf0c1fc2f66e0956874d6e21928c1556df1630ee2243d67683e1eefe26312fc7"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/eqrvp4NK/versions/Cw5k6c0a/createenchantablemachinery-3.6.0%2Bmc1.21.1-neoforge.jar"
+			],
+			"fileSize": 575739
+		},
+		{
+			"path": "mods/opac_essentials-2.3.jar",
+			"hashes": {
+				"sha512": "e4aead5febad6be8ea00144bce9d73cf816b5f27706dd4e6047f178d5d0d4e88daf7219de3ec51e702c1d5380c6af2865a77acd37f1d169604c6c3a636df658c",
+				"sha1": "5797746bca879a9fda74d95cb0d3a34586dccdfe"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/u0lYa0ln/versions/UB30wGRX/opac_essentials-2.3.jar"
+			],
+			"fileSize": 5097814
 		}
 	],
 	"dependencies": {
