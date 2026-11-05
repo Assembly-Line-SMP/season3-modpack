@@ -2098,6 +2098,17 @@
 				"https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar"
 			],
 			"fileSize": 1085674
+		},
+		{
+			"path": "mods/automodpack-mc1.21.1-neoforge-4.0.7.jar",
+			"hashes": {
+				"sha1": "b3af55f9d888836d006084febdb57380b256f707",
+				"sha512": "30a37438215c7cbee43f5761fc53d92f07a2a19094800df612647d77257850de65d7d66f19205e13ece7c85f41719bed2714d67504c2da6e5d483abfbf0361fd"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/k68glP2e/versions/QpFRQTSU/automodpack-mc1.21.1-neoforge-4.0.7.jar"
+			],
+			"fileSize": 15475056
 		}
 	],
 	"dependencies": {
