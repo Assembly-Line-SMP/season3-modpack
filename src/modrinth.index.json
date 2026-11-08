@@ -2079,6 +2079,39 @@
 				"https://cdn.modrinth.com/data/k68glP2e/versions/QpFRQTSU/automodpack-mc1.21.1-neoforge-4.0.7.jar"
 			],
 			"fileSize": 15475056
+		},
+		{
+			"path": "mods/better-advanced-tooltips-2101.1.0-build.5.jar",
+			"hashes": {
+				"sha512": "05b5cdad948d1735eab7a67a16aaf32814678c392014ec2ada61b8341c0ed1c1ac181cab1de9da3f2c4632592f4a1a5db254bd0543e6778897c8ccd260894142",
+				"sha1": "5b73537b908764f2d3fd593a0f56a8b1b034bc50"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/iHLDc0eo/versions/uPFbnD32/better-advanced-tooltips-2101.1.0-build.5.jar"
+			],
+			"fileSize": 37653
+		},
+		{
+			"path": "mods/kubejs-neoforge-2101.7.2-build.381.jar",
+			"hashes": {
+				"sha1": "b282ba250cdd247f319c016df02ff9e600caadb1",
+				"sha512": "f8286f9f371d0c1fb2b37e56b1dbb359dcfc5a9064a7384cbf6722450f5b5a77f05f55688d7a338b500a6f49590d51e3d3541664dfc0296e50fe573a34e5a529"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/umyGl7zF/versions/GDXCpKlp/kubejs-neoforge-2101.7.2-build.381.jar"
+			],
+			"fileSize": 2295092
+		},
+		{
+			"path": "mods/rhino-2101.2.8-build.91.jar",
+			"hashes": {
+				"sha1": "56eab1d464ed0811c64040c64bd047df5cbc3aad",
+				"sha512": "e3d92f663bc07872a83b0a6474b30a75230e9f92a2844fd98da1842ec9a79712bcb7d8e76574cc11ae3aeceb47f2933c60ddd6cf41f3ad7027bd573623730945"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/sk9knFPE/versions/SqkDvOLG/rhino-2101.2.8-build.91.jar"
+			],
+			"fileSize": 980936
 		}
 	],
 	"dependencies": {
