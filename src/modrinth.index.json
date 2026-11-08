@@ -2112,6 +2112,17 @@
 				"https://cdn.modrinth.com/data/sk9knFPE/versions/SqkDvOLG/rhino-2101.2.8-build.91.jar"
 			],
 			"fileSize": 980936
+		},
+		{
+			"path": "mods/better_modlist-21.1.5.jar",
+			"hashes": {
+				"sha1": "f562b7e1a05deb3b8bb8e1bd7958fc1dbd99b626",
+				"sha512": "65f47d2e3d72d9411dd07ac0740c771a1ea2693a1e72d69b83ba7edf3b20abf67510abc88e6fc9f6f71899783315a62e252d08b945a13e8d1baacba6a284d680"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/sbpqhzIG/versions/QRL2q28j/better_modlist-21.1.5.jar"
+			],
+			"fileSize": 823891
 		}
 	],
 	"dependencies": {
