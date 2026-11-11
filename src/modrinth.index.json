@@ -1772,6 +1772,21 @@
 				"https://cdn.modrinth.com/data/sbpqhzIG/versions/QRL2q28j/better_modlist-21.1.5.jar"
 			],
 			"fileSize": 823891
+		},
+		{
+			"path": "mods/railways-0.2.1+neoforge-mc1.21.1.jar",
+			"hashes": {
+				"sha1": "f2d71927ef504b597a6c992d02118c1e6ee6e369",
+				"sha512": "dac8efb7c8b4b525114c2548bd2a8254d3b1e9e44664ba84b0f4e8467e1584029f8a219dd1ddf4389ab0a94e525183ee7753d33babdf319926cd63d2fc9cdffd"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/L3Jv0QZI/versions/HOPX5oro/railways-0.2.1%2Bneoforge-mc1.21.1.jar"
+			],
+			"fileSize": 12118736
 		}
 	],
 	"dependencies": {
