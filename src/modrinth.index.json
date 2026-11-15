@@ -1774,19 +1774,19 @@
 			"fileSize": 823891
 		},
 		{
-			"path": "mods/railways-0.2.1+neoforge-mc1.21.1.jar",
+			"path": "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
 			"hashes": {
-				"sha1": "f2d71927ef504b597a6c992d02118c1e6ee6e369",
-				"sha512": "dac8efb7c8b4b525114c2548bd2a8254d3b1e9e44664ba84b0f4e8467e1584029f8a219dd1ddf4389ab0a94e525183ee7753d33babdf319926cd63d2fc9cdffd"
+				"sha1": "82a28ce51fdbc583477d7ae7c4c94cc6d23ec2b4",
+				"sha512": "def5c767467bf7863e2efc1a8cc3bf3442e1090ee1504e447c4120b9ff4ff6780de93d2a7d1bf696cd19407010d465b99f00bbf780776b0a9648804fa1b45f75"
 			},
 			"env": {
 				"client": "required",
 				"server": "required"
 			},
 			"downloads": [
-				"https://cdn.modrinth.com/data/L3Jv0QZI/versions/HOPX5oro/railways-0.2.1%2Bneoforge-mc1.21.1.jar"
+				"https://cdn.modrinth.com/data/L3Jv0QZI/versions/czVeSmZo/railways-0.3.0-beta.2%2Bneoforge-mc1.21.1.jar"
 			],
-			"fileSize": 12118736
+			"fileSize": 18728584
 		},
 		{
 			"path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
@@ -1802,6 +1802,231 @@
 				"https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar"
 			],
 			"fileSize": 38629
+		},
+		{
+			"path": "mods/cc_battery-1.2.0.jar",
+			"hashes": {
+				"sha1": "5a813dade6bc8462b12daf82ca6e2602451887ef",
+				"sha512": "b9ace5de2a2dc8dc2f039966e3924a921ed2e5ec29173d1b6e2e4c14e8792fa5436c484ea2c533cad5baca236ee58d890427ae8e9cfe5d161bb5234015af2496"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/I6XgwtMn/versions/QUOiSCvT/cc_battery-1.2.0.jar"
+			],
+			"fileSize": 243114
+		},
+		{
+			"path": "mods/create-central-kitchen-2.6.2b.jar",
+			"hashes": {
+				"sha1": "796355e592455c84c4eee8b7cd998734a9500c0d",
+				"sha512": "d4d0a383b5288a7272392ae475d67bc947cd019bc627612bd01992f5ecd702bda078fe75302b83c9619eb26a754195e9ef5f2212cb200eef802bb7d49c255358"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/btq68HMO/versions/qZxkZR8W/create-central-kitchen-2.6.2b.jar"
+			],
+			"fileSize": 511818
+		},
+		{
+			"path": "mods/CCSecureBoot-1.0.2-neoforge-1.21.1.jar",
+			"hashes": {
+				"sha1": "1587cc54fed4621e66af6859f058ce8c3674890d",
+				"sha512": "b4342b73a64b7b7166883832af73705720e3e027e04fbcdaf813135454ed1aa6ced84f623342092f7b4941fa382ec0f6235485629130cf3fcb3cb6b9d3e78a4b"
+			},
+			"env": {
+				"client": "unsupported",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/8S3qbPSr/versions/dGeakQRM/CCSecureBoot-1.0.2-neoforge-1.21.1.jar"
+			],
+			"fileSize": 9458425
+		},
+		{
+			"path": "mods/cide-1.1.0.jar",
+			"hashes": {
+				"sha1": "7483d867742530c7982490e4737ff7e72809e5d7",
+				"sha512": "de786d6d94ede227f3d8fce9dbdfa8edd443fc8050fbe09fa0b200e6a0c73552e3acde3a9a7a2ecac6422d20cf3541c8d71dfc9fe7def7fcaa57df259b5276a8"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/xwfHmqSv/versions/xdnAXaAa/cide-1.1.0.jar"
+			],
+			"fileSize": 645130
+		},
+		{
+			"path": "mods/AdvancedPeripherals-1.21.1-0.8.2a.jar",
+			"hashes": {
+				"sha1": "94bf731db54b6ca717b1269d2e6a3ff9c17713df",
+				"sha512": "c25a6ca7ad7f09c3f6bb91cf319e0a2a6701b1b1e9fd2c61e4b9f770d6cc64907f6b7919540432dbdebb6599b8d745e709fb4d9200cf28b02f246c879bce5e8e"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/SOw6jD6x/versions/fxjzpAbL/AdvancedPeripherals-1.21.1-0.8.2a.jar"
+			],
+			"fileSize": 1681255
+		},
+		{
+			"path": "mods/CreateBigMail-1.0.3.jar",
+			"hashes": {
+				"sha1": "7002d43add6f323a466ff14d681d3d566573923c",
+				"sha512": "5e677439873d5ca4d9e7a35a35bc7779151066f9a279dd97f489fcfa70c7a6052312e12342d50fbcca68b3a57858266fe2fc5096e9d5e952a24306e4e79b9b34"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/DVjwMAmO/versions/kILA3d86/CreateBigMail-1.0.3.jar"
+			],
+			"fileSize": 120887
+		},
+		{
+			"path": "mods/junkyard_utils-1.2.2b-neoforge-1.21.1.jar",
+			"hashes": {
+				"sha1": "aefc932eaac1b97a1eba1af0c30b8582072bdd52",
+				"sha512": "7ff28b7d50843fc410b95177fc1389759db44fa566f229521f163327b83f3103cbfd5a55fd568745c09f9626246a28d74c4d5acddaee4c91e96357f606dc1377"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/y6imdEG7/versions/ej6dDY3W/junkyard_utils-1.2.2b-neoforge-1.21.1.jar"
+			],
+			"fileSize": 805247
+		},
+		{
+			"path": "mods/bits_n_bobs-2.3.5.jar",
+			"hashes": {
+				"sha1": "50119ba6849f2b165ab692ab312dbe4867444ac0",
+				"sha512": "33aaa835f1b1774a2b2f14ed6015efdf47a5b3827e702814c651ccde08ef5fda7572f6734c3b0f136795b45972a153c8dfe330df708b6487e58e18a29c689cb8"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/T8bvmqVZ/versions/g9Lmjjc5/bits_n_bobs-2.3.5.jar"
+			],
+			"fileSize": 2433531
+		},
+		{
+			"path": "mods/createadditionallogistics-1.21.1-1.4.5.jar",
+			"hashes": {
+				"sha1": "6acf4d30516b6bf66928aa5d79d6bac6283de44e",
+				"sha512": "0223a647558844c2a8c02ce63c78abade83f63013dbd4e09a5edbdb6e05a16f2c504f7328a113e5dca088cc112dc59f102f08e839ed1ebc5d9ed40a83481cb8a"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/CZaz7aje/versions/soesZiME/createadditionallogistics-1.21.1-1.4.5.jar"
+			],
+			"fileSize": 953230
+		},
+		{
+			"path": "mods/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar",
+			"hashes": {
+				"sha1": "911bc3a5c440dc6894920ebd5a848ae8a5c47ec3",
+				"sha512": "b28d70f9db4e616accf8818f95ef7521eda0f56abca81141ea507b0a0fea7a4460a01df6e9e86aa9020369066e55157359e36ec3e65d0ffabf782a5f22f22c44"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/s85zLEDe/versions/PWwbiDmx/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar"
+			],
+			"fileSize": 94059
+		},
+		{
+			"path": "mods/trading_floor-3.0.16.jar",
+			"hashes": {
+				"sha1": "7be6d8b24f3120fa6a2520c32a2e6c8c4254322c",
+				"sha512": "6eaf42758446093c1923a9c325b955f7ec38933bc0b271559547b73b7dc9950e47a8256ca6f9baf13389ccc349da05a9e32d0f77e71a5f5b2c37080f3773148f"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/WROfLLvn/versions/K3nIvcWT/trading_floor-3.0.16.jar"
+			],
+			"fileSize": 214343
+		},
+		{
+			"path": "mods/fasterladderclimbing-0.2.14.jar",
+			"hashes": {
+				"sha1": "11c268baadfc3daf31ac91135b4f34cf25217a42",
+				"sha512": "615e9f7a275b25daaa070bc784f035df5a80a6cc0c7d46b58e465ce72e0324d7d7bcb712596a20e530ecd2d2875cbf224290021b814a823517976a7572a57e65"
+			},
+			"env": {
+				"client": "required",
+				"server": "unsupported"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/ylYAPOKe/versions/zid0KBLi/fasterladderclimbing-0.2.14.jar"
+			],
+			"fileSize": 18756
+		},
+		{
+			"path": "mods/create_mobile_packages-1.21.1-0.7.8.jar",
+			"hashes": {
+				"sha1": "1e5238c8764bcfc3c0af29c3ff5b4533a18364c7",
+				"sha512": "f99ccd6762ac89e000c8d479d3bdb5b6fc85c371f03272c2886c1fba9c2b856b7f2caaf3e2a84281af88c264823af1d74dc0323f60f3670ab6c5e1c3bf5dc0f0"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/1vXRfEHZ/versions/xSPt2JXH/create_mobile_packages-1.21.1-0.7.8.jar"
+			],
+			"fileSize": 623172
+		},
+		{
+			"path": "mods/struts-1.3.1.jar",
+			"hashes": {
+				"sha1": "131663d29e0dd944e03299b35bda18aefacd1932",
+				"sha512": "f7c9c3b66c926c163a8c747d3b50c45589f1796711bc9de0e3bb3f024cb18a552e9b7df6e667b813d12aba50377a39a1cd80a493925f164deb89c8a9dc709f49"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/sHO3MhQx/versions/BOTN7zzN/struts-1.3.1.jar"
+			],
+			"fileSize": 216678
+		},
+		{
+			"path": "mods/azimuth-1.4.10.jar",
+			"hashes": {
+				"sha1": "911e255bd09a6bcb2ca85ea172d1812e0f4665f1",
+				"sha512": "29d2ee1b146d91047bc265a4902d43c20a825005921aeb9c7c4e96be0ae880b1bc842ca5e2b9c607dc46bede744ab023dc5ba8876ac8892f06d3550637819349"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/RpH8tmT1/versions/dxtZVosY/azimuth-1.4.10.jar"
+			],
+			"fileSize": 143818
 		}
 	],
 	"dependencies": {
