@@ -2042,6 +2042,21 @@
 				"https://cdn.modrinth.com/data/pyljrXOa/versions/cvMAdz6u/diegesis-neoforge-1.21.1-1.0.0-beta.10.jar"
 			],
 			"fileSize": 892262
+		},
+		{
+			"path": "mods/handson_delight-neoforge-1.21.1-1.5.0.jar",
+			"hashes": {
+				"sha1": "d664aa6e37d96dc0a954825317076a4d636371d6",
+				"sha512": "66d52aa646d1d2c0ae26753648dcffada413c54cf5ef6ae0a12f4a924a973a6935c189a45bf71415ac5b79f66fbd9f91331a0210083c74854d6dfb0660eea6b4"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/akw8BJFr/versions/uwvww5nN/handson_delight-neoforge-1.21.1-1.5.0.jar"
+			],
+			"fileSize": 1542260
 		}
 	],
 	"dependencies": {
