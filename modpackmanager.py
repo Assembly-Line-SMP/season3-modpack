@@ -913,8 +913,8 @@ class App:
             items = self.build_items()
             selected = {i for i, it in enumerate(items) if it.key in self.sel}
             res = pick(self.scr, "Modpack manager", [(it.text, it.style) for it in items], multi=True,
-                       hotkeys="adufcpwrq?", selected=selected, cursor=cursor, header=self.header(),
-                       help_line="a add  d remove  u update  f fix  c convert  p pack info  w save  "
+                       hotkeys="adufcpwsrq?", selected=selected, cursor=cursor, header=self.header(),
+                       help_line="a add  d remove  u update  f fix  c convert  p pack info  w save  s suggestions  "
                                  "/ filter  Space select  ? help  q quit",
                        status=self.status, flt=self.flt)
             self.sel = {items[i].key for i in res.selected if i < len(items)}
@@ -944,6 +944,8 @@ class App:
                     self.pack_info()
                 elif res.key == "w":
                     self.save()
+                elif res.key == "s":
+                    self.add_suggestions()
                 elif res.key == "r":
                     self.api.missing.clear()
                     self.lookup()
@@ -1217,6 +1219,36 @@ class App:
                 if new is not None and new != str(box.get(key, "")):
                     box[key] = new
                     self.pack.dirty = True
+    def add_suggestions(self):
+        busy(self.scr, "Fetching suggestions from the API...")
+        resp = requests.get("https://raspi.kubabin.dev/suggest/api/suggestions")
+        suggestions = resp.json()
+        accepted = []
+        for sugg in suggestions["suggestions"]:
+            if sugg["added"]:
+                accepted.append([sugg["modrinth_slug"], ""])
+        if not accepted:
+            show_text(self.scr, "Suggestions", ["No accepted suggestions available."])
+            return
+        msgs = ["Suggested changes:"]
+        msgs.extend(accepted)
+        versions = []
+        # Ask the user if they want to apply the suggestions
+        if pick(self.scr, "Suggestions", msgs, hotkeys="yN", help_line="y apply all suggestions, N cancel").key == "y":
+            for sugg in accepted:
+                # Apply each accepted suggestion.
+                # (each suggestion is a mod to be added to the pack)
+                
+                # Get the latest mod version for 1.21.1 NeoForge.
+                mod_versions = self.api.project_versions(sugg[0], mc="1.21.1", loader="neoforge")
+                # Get the latest version from the list of versions.
+                if mod_versions:
+                    versions.append(mod_versions[0])
+                else:
+                    show_text(self.scr, "Error", [f"No versions found for {sugg[0]}"])
+                    continue
+        self.install(versions, False)
+                
 
 
 # --------------------------------------------------------------------------- #
@@ -1288,7 +1320,6 @@ def main():
 
     def tui(scr):
         App(scr, pack, api).run()
-
     curses.wrapper(tui)
 
 
