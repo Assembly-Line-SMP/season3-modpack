@@ -1,7 +1,7 @@
 {
 	"game": "minecraft",
 	"formatVersion": 1,
-	"versionId": "3.1.0",
+	"versionId": "3.2.0",
 	"name": "Assembly Line SMP S3",
 	"summary": "Official modpack of the Assembly Line SMP. S3",
 	"files": [
@@ -516,19 +516,19 @@
 			"fileSize": 33123131
 		},
 		{
-			"path": "mods/jei-1.21.1-neoforge-19.64.0.455.jar",
+			"path": "mods/jei-1.21.1-neoforge-19.70.0.469.jar",
 			"hashes": {
-				"sha512": "fdd02e57ce4dcf20b69860a5ace1b97d9a771486241179cf9edfe71e30c69bb4003b046d0cce8d8c4913b9689f1d8b04cf0542b0b04a6cf0b3b0465f3bb11702",
-				"sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a"
+				"sha1": "363f10ce1d8918381a125cc1e8d800caf1bcb40e",
+				"sha512": "65e9ed5d032e6f284dbdc7f5a41ca43f35ffb9e086419105ee6b360333b1349dc5967bf6ca250f8f02adf73326318945b6c4e57624c0e0a09fc566731e328bc1"
 			},
 			"env": {
-				"client": "required",
-				"server": "required"
+				"client": "optional",
+				"server": "optional"
 			},
 			"downloads": [
-				"https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar"
+				"https://cdn.modrinth.com/data/u6dRKJwZ/versions/1vC6z8wV/jei-1.21.1-neoforge-19.70.0.469.jar"
 			],
-			"fileSize": 2375741
+			"fileSize": 4784333
 		},
 		{
 			"path": "mods/createrailgrinding-1.2.2.jar",
@@ -1719,15 +1719,15 @@
 			"fileSize": 1085674
 		},
 		{
-			"path": "mods/automodpack-mc1.21.1-neoforge-4.0.7.jar",
+			"path": "mods/automodpack-5.0.0-rc.7.jar",
 			"hashes": {
-				"sha1": "b3af55f9d888836d006084febdb57380b256f707",
-				"sha512": "30a37438215c7cbee43f5761fc53d92f07a2a19094800df612647d77257850de65d7d66f19205e13ece7c85f41719bed2714d67504c2da6e5d483abfbf0361fd"
+				"sha1": "37af38cc28014f73b0b74314c49b8cc92fcfab9b",
+				"sha512": "29aeedfac5b4dec1f62d4ccba574c34aaccbe0f5b7be81c4a046c8c59b77eff9207c99d4dda372df753bb19fe1bc5479d8cc9186f6737b83c97cae92445f9ff1"
 			},
 			"downloads": [
-				"https://cdn.modrinth.com/data/k68glP2e/versions/QpFRQTSU/automodpack-mc1.21.1-neoforge-4.0.7.jar"
+				"https://cdn.modrinth.com/data/k68glP2e/versions/s49Ma0rZ/automodpack-5.0.0-rc.7.jar"
 			],
-			"fileSize": 15475056
+			"fileSize": 4253428
 		},
 		{
 			"path": "mods/better-advanced-tooltips-2101.1.0-build.5.jar",
@@ -2027,10 +2027,25 @@
 				"https://cdn.modrinth.com/data/RpH8tmT1/versions/dxtZVosY/azimuth-1.4.10.jar"
 			],
 			"fileSize": 143818
+		},
+		{
+			"path": "mods/diegesis-neoforge-1.21.1-1.0.0-beta.10.jar",
+			"hashes": {
+				"sha1": "91648e5e3e562cb1a266bc124b5693c4ff3900cc",
+				"sha512": "188b09a575a6fda24ac6de8793a8a95435351dc327a3802abc66454455d46020466a3c4b32375963ef8845f60f881ba616b4383b4d2c029cee2b36d25523cfca"
+			},
+			"env": {
+				"client": "required",
+				"server": "required"
+			},
+			"downloads": [
+				"https://cdn.modrinth.com/data/pyljrXOa/versions/cvMAdz6u/diegesis-neoforge-1.21.1-1.0.0-beta.10.jar"
+			],
+			"fileSize": 892262
 		}
 	],
 	"dependencies": {
 		"minecraft": "1.21.1",
-		"neoforge": "21.1.262"
+		"neoforge": "21.1.265"
 	}
 }
